@@ -1,2 +1,207 @@
 # Auto detect text files and perform LF normalization
 * text=auto
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .nave ul {
+            list-style: none;
+            display: flex;
+            gap: 40px;
+        }
+
+        .logo img {
+            width: 160px;
+        }
+
+        .logo {
+            margin: 10px;
+            width: 30px;
+            height: 40px;
+        }
+
+        nav {
+            display: flex;
+            justify-content: space-around;
+
+        }
+
+        section {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+        }
+
+        .heading {
+            margin: 100px 0px 30px 30px;
+            font-size: 50px;
+            font-family: sans-serif;
+            font-weight: lighter
+        }
+
+        .second {
+            font-size: 23px;
+            width: 56vw;
+            text-align: center;
+        }
+
+        .button {
+            background-color: rgb(99, 183, 239);
+            color: white;
+            position: relative;
+            left: 258px;
+            margin: 30px;
+            border-radius: 5%;
+            padding: 15px;
+            border: none;
+            font-weight: 700;
+        }
+
+        .secondclass2 {
+            position: relative;
+            left: 402px;
+            top: -19px;
+        }
+
+        .secondclass1 {
+            position: relative;
+            left: 403px;
+        }
+
+        .colour-blue {
+            border-radius: 5px;
+            border: none;
+            padding: 10px 10px;
+            background-color: #00b6d1
+        }
+
+        .colour-green {
+            background-color: rgb(76, 150, 76);
+            border-radius: 5px;
+            border: none;
+            padding: 10px 10px;
+        }
+
+        .Language {
+            padding: 50px 0px 40px 76px;
+            font-family: sans-serif;
+
+        }
+
+        .grid {
+            border: 2px solid black;
+            border: none;
+            border-radius: 5px;
+            background-color: #f9f9f9;
+            padding: 30px 30px;
+
+        }
+
+        .item {
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr;
+            gap: 40px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">
+                <img src="https://www.ultraedit.com/wp-content/uploads/2023/01/UE-Logo-1.webp" alt="image">
+            </div>
+            <div class="nave">
+                <ul>
+                    <li>Products</li>
+                    <li>Pricing</li>
+                    <li>Resources</li>
+                    <li>About us</li>
+                    <li>Security and compliance</li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <section>
+        <main>
+            <div class="heading"> Download UltraEdit for Windows <img
+                    src="https://www.ultraedit.com/wp-content/uploads/2022/10/Reviews.png" alt="image">
+            </div>
+            <div class="second">Download and try UltraEdit before you buy it! This download includes the full Windows
+                version of the
+                text editor.
+            </div>
+            <button class="button">DOWNLOAD MAC OR LINUX VERSION</button>
+
+        </main>
+    </section>
+    <div class="secondclass"></div>
+    <span class="secondclass1"><img width="50px"
+            src="https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcQkjIxzJXnQLyq-gbIO7zjFlstOVHHjw34ZHGqE-z1BI--yMA2Q"
+            alt="image"></span>
+    <span class="secondclass2">Download UltraEdit v2024.0(released 04/19/2024) | Hotfix</span>
+    </span>
+</body>
+
+<section>
+    <div class="item">
+        <div class="grid">
+            <div class="Language"><b>English</b></div>
+            <button class="colour-blue">Download 32-bit</button>
+            <button class="colour-green">Download 64-bit</button>
+        </div>
+        <div class="grid">
+            <div class="Language"><b>Deutsch</b></div>
+            <button class="colour-blue">Download 32-bit</button>
+            <button class="colour-green">Download 64-bit</button>
+        </div>
+        <div class="grid">
+            <div class="Language"><b></b>Italiano</div>
+            <button class="colour-blue">Download 32-bit</button>
+            <button class="colour-green">Download 64-bit</button>
+        </div>
+        <div class="grid">
+            <div class="Language"><b>Español</div>
+            <button class="colour-blue">Download 32-bit</button>
+            <button class="colour-green">Download 64-bit</button>
+        </div>
+        <div class="grid">
+            <div class="Language"><b>français</b></div>
+            <button class="colour-blue">Download 32-bit</button>
+            <button class="colour-green">Download 64-bit</button>
+        </div>
+        <div class="grid">
+            <div class="Language"><b></b>Português brasileiro</b></div>
+            <button class="colour-blue">Download 32-bit</button>
+            <button class="colour-green">Download 64-bit</button>
+        </div>
+        <div class="grid">
+            <div class="Language"><b>日本</b></div>
+            <button class="colour-blue">Download 32-bit</button>
+            <button class="colour-green">Download 64-bit</button>
+        </div>
+        <div class="grid">
+            <div class="Language"><b>한국어</b></div>
+            <button class="colour-blue">Download 32-bit</button>
+            <button class="colour-green">Download 64-bit</button>
+        </div>
+        <div class="grid">
+            <div class="Language"><b>中国</b></div>
+            <button class="colour-blue">Download 32-bit</button>
+            <button class="colour-green">Download 64-bit</button>
+        </div>
+        <div class="grid">
+            <div class="Language"><b>中國</b></div>
+            <button class="colour-blue">Download 32-bit</button>
+            <button class="colour-green">Download 64-bit</button>
+        </div>
+    </div>
+
+
+</section>
+
+</html>
